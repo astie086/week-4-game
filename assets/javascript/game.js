@@ -15,10 +15,10 @@ $( document ).ready(function(){
 // the following creates new numbers for the crystals
 //Math.floor(Math.random() * ((12-1)+1) + 1);
 // num 1 is the name
-      num1= Math.floor(Math.random()*12+1);
-      num2= Math.floor(Math.random()*12+1);
-      num3= Math.floor(Math.random()*12+1);
-      num4= Math.floor(Math.random()*12+1);
+   num1= Math.floor(Math.random()*12+1);
+   num2= Math.floor(Math.random()*12+1);
+   num3= Math.floor(Math.random()*12+1);
+   num4= Math.floor(Math.random()*12+1);
 // the following starts user total at 0
       userTotal= 0;
 
