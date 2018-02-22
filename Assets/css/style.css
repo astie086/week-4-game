@@ -1,0 +1,62 @@
+/* how do i put in a background */
+body {
+    background: url("SailorMoon.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 60%;
+    background-color: darkblue;
+}
+
+div.header {
+/* make this smaller than it already is*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-right: 850px;
+    background-color: pink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+div.Instructions {
+    background-color: teal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 850px;
+}
+/* how do i get them next to each other*/
+/* explain floats?*/
+
+div.CrystalValue {
+    background-color: rgb(128, 0, 64);
+    width: 20%;
+    padding-top: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block
+}
+
+div.ScoresWinsLosses {
+    background-color: pink;
+    width: 20%;
+    padding-right: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block
+}
+
+div.SailorCrystals {
+    background-color: black;
+    margin-right: 850px;
+
+}
+
+div.UserTotal {
+    background-color: teal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 850px;
+}
+
+div.SailorCrystal.one {
+    padding-right: 200px;
+}

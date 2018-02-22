@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <!-- link the css and html page -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+            <!-- Does JS link work here?? -->
+
+    <title>Document</title>
+</head>
+<body>
+        <!-- WHY WONT BACKGROUND WORKSSSSSSS -->
+        <body background= href="/images/SailorMoon.jpg">
+        
+    <!-- creating divs for each portion of page to make changes to later -->
+        <div class="header">
+                <h1>Crystal Collector</h1>
+            </div>
+            <div class="Instructions">
+                    <p>You will be given a random number at the start of the game</p>
+                    <p>There are four Sailor Crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                    <p>You win by matching your total to the the random number, you lose the game if your total score goes above the random number.</p>
+                    <p>The value of each Sailor Crystal is hidden from you until you click on it</p>
+                    <p>Each time the game starts, the game will change the value of the Sailor Crystals.</p>
+                </div>
+
+                <!-- Computer score -->
+            <div class="CrystalValue">
+                <h1> Crystal Value:</h1>
+                <span id= "startingPoints"></span>
+            </div>
+            <!-- Wins and losses -->
+            <div class="ScoresWinsLosses">
+                <h1>Wins:<span id= "UserWins"></span></h1>
+                <h1>Losses:<span id= "UserLosses"></span></h1>
+            </div>
+
+            <!-- Crystals -->
+            <div class="SailorCrystals">
+                    <img src="assets/images/B1.png" class=SailorCrystal id="a" height= "100" alt="Blue Crystal">
+                    <img src="assets/images/G1.png" class=SailorCrystal id="b" height= "100" alt="Red Crystal">
+                    <img src="assets/images/G3.png" class=SailorCrystal id="c" height= "100" alt="Green Crystal">
+                    <img src="assets/images/G4.png" class=SailorCrystal id="d" height= "100" alt="White Crystal">
+            </div>
+            <div class="UserTotal">
+                <h1>Your total score is:
+                    <span id= "finalTotal"></span>
+                </h1>
+            </div>
+        
+</body>
+</html>
